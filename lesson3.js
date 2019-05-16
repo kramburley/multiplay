@@ -12,6 +12,5 @@ console.log(arr.length - 1)
 
 fs.readFile('lesson3.txt', 'utf8',function(err,data) {
     if (err) throw err;
-    console.log(data.split("\n").length - 1);
-    
+    console.log(data.split("\n").length - 1);    
 })
